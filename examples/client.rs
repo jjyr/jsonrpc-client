@@ -1,4 +1,4 @@
-use jsonrpc_client::*;
+use simple_jsonrpc_client::*;
 
 jsonrpc!(pub struct Rpc {
     pub fn get_data(&self, _id: u64) -> Option<Vec<u8>>;
